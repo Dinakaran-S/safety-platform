@@ -1,0 +1,189 @@
+{
+  "historical_incidents": [
+    {
+      "id": "NM-101",
+      "title": "Near-miss: H2S excursion during confined vessel entry",
+      "zone_id": "Z3",
+      "date": "2022-03-14",
+      "summary": "Gas detector flagged rising H2S inside a confined vessel during an active confined-space-entry permit; entrant evacuated before exposure threshold reached.",
+      "tags": ["confined_space", "gas_h2s", "near_miss"],
+      "severity": "near_miss"
+    },
+    {
+      "id": "NM-114",
+      "title": "Near-miss: gas pressure rise with concurrent hot work",
+      "zone_id": "Z3",
+      "date": "2023-07-02",
+      "summary": "Pressure anomaly in a vessel bay coincided with an active hot-work permit nearby; work was suspended after the operational risk review flagged the combination, avoiding potential ignition of accumulated gas.",
+      "tags": ["hot_work", "confined_space", "pressure", "gas_ch4"],
+      "severity": "near_miss"
+    },
+    {
+      "id": "INC-088",
+      "title": "Fatal incident: entrapped gas with active hot work permit during shift handover",
+      "zone_id": "Z3",
+      "date": "2021-11-09",
+      "summary": "Entrapped gas in a confined vessel went undetected across a shift handover while a hot-work permit remained active; ignition occurred shortly after handover completion. Root cause review found no system correlated the gas trend with the active permit across the handover boundary.",
+      "tags": ["hot_work", "confined_space", "shift_handover", "gas_ch4", "fatal"],
+      "severity": "fatal"
+    },
+    {
+      "id": "NM-127",
+      "title": "Near-miss: vibration spike during breakdown maintenance on reactor pump",
+      "zone_id": "Z4",
+      "date": "2023-01-20",
+      "summary": "Unplanned breakdown maintenance combined with rising pump vibration trend; early shutdown avoided seal failure.",
+      "tags": ["breakdown_maintenance", "vibration", "near_miss"],
+      "severity": "near_miss"
+    },
+    {
+      "id": "NM-133",
+      "title": "Near-miss: temperature excursion in reactor unit during electrical isolation",
+      "zone_id": "Z6",
+      "date": "2022-09-05",
+      "summary": "Temperature anomaly during a routine electrical isolation; isolation work paused and excursion traced to a stuck control valve, not a hazard escalation -- recorded as a low-severity correlated event.",
+      "tags": ["electrical_isolation", "temperature", "near_miss"],
+      "severity": "near_miss"
+    },
+    {
+      "id": "INC-095",
+      "title": "Recordable incident: storage tank overpressure during inspection",
+      "zone_id": "Z2",
+      "date": "2020-05-30",
+      "summary": "Pressure relief activated during a scheduled inspection window combined with an unusual fill-rate change; minor release, no injuries, but highlighted lack of cross-system correlation between maintenance schedule and tank telemetry.",
+      "tags": ["inspection", "pressure", "storage", "recordable"],
+      "severity": "recordable"
+    },
+    {
+      "id": "NM-141",
+      "title": "Near-miss: confined space gas anomaly with no permit active",
+      "zone_id": "Z3",
+      "date": "2024-02-11",
+      "summary": "Single-sensor gas spike with no active permit and no maintenance context; investigation found a sensor drift fault, not a real hazard. Cited internally as the textbook example of why single-sensor alarms must not auto-escalate without context.",
+      "tags": ["gas_h2s", "sensor_fault", "false_alarm"],
+      "severity": "false_alarm"
+    },
+    {
+      "id": "NM-152",
+      "title": "Near-miss: compressor house pressure and vibration co-trend during preventive maintenance",
+      "zone_id": "Z1",
+      "date": "2023-11-18",
+      "summary": "Preventive maintenance window coincided with a slow co-trending rise in pressure and vibration; flagged early, compressor taken offline for inspection before failure.",
+      "tags": ["preventive_maintenance", "pressure", "vibration", "near_miss"],
+      "severity": "near_miss"
+    },
+    {
+      "id": "INC-103",
+      "title": "Recordable incident: pipe rack leak during excavation nearby",
+      "zone_id": "Z5",
+      "date": "2021-06-22",
+      "summary": "Excavation permit active near a buried utility line; subsequent ground movement contributed to a small flange leak on the adjacent pipe rack, detected by pressure drop correlated with excavation activity logs.",
+      "tags": ["excavation", "pressure", "recordable"],
+      "severity": "recordable"
+    },
+    {
+      "id": "NM-160",
+      "title": "Near-miss: cooling water plant vibration with no corroborating context",
+      "zone_id": "Z7",
+      "date": "2024-04-03",
+      "summary": "Isolated vibration spike on a cooling water pump with no permit or maintenance activity; resolved as routine mechanical noise from a nearby vehicle pass, not flagged for action -- another reference case for the no-context-no-escalation principle.",
+      "tags": ["vibration", "false_alarm"],
+      "severity": "false_alarm"
+    },
+    {
+      "id": "NM-168",
+      "title": "Near-miss: effluent treatment temperature rise during breakdown maintenance",
+      "zone_id": "Z8",
+      "date": "2022-12-29",
+      "summary": "Breakdown maintenance on a treatment pump coincided with a temperature rise; correlation flagged early, contained before any environmental exceedance.",
+      "tags": ["breakdown_maintenance", "temperature", "near_miss"],
+      "severity": "near_miss"
+    },
+    {
+      "id": "INC-110",
+      "title": "Fatal incident: confined space entry without verified gas-free certificate during handover",
+      "zone_id": "Z3",
+      "date": "2019-08-17",
+      "summary": "Entry proceeded into a confined space across a shift handover without explicit re-verification of the gas-free certificate; a slow-accumulating gas pocket caused asphyxiation. Industry root-cause analysis: handover windows require explicit re-validation of safety-critical certificates, not implicit carry-over.",
+      "tags": ["confined_space", "shift_handover", "fatal"],
+      "severity": "fatal"
+    },
+    {
+      "id": "NM-175",
+      "title": "Near-miss: reactor B pressure-temperature co-anomaly with active hot work",
+      "zone_id": "Z6",
+      "date": "2023-04-09",
+      "summary": "Concurrent pressure and temperature anomalies during an active hot-work permit; work suspended and root cause traced to a faulty relief valve, narrowly avoiding a more serious event.",
+      "tags": ["hot_work", "pressure", "temperature", "near_miss"],
+      "severity": "near_miss"
+    },
+    {
+      "id": "NM-182",
+      "title": "Near-miss: storage tank farm gas reading during lifting operation",
+      "zone_id": "Z2",
+      "date": "2024-06-15",
+      "summary": "Elevated CH4 reading during a lifting permit near tank vents; lift paused, ventilation increased, reading normalized -- attributed to a temporary vent misalignment.",
+      "tags": ["lifting", "gas_ch4", "storage", "near_miss"],
+      "severity": "near_miss"
+    },
+    {
+      "id": "INC-118",
+      "title": "Recordable incident: control room HVAC fault masking heat stress risk",
+      "zone_id": "Z9",
+      "date": "2021-02-08",
+      "summary": "Control room temperature drifted upward undetected for several hours due to a sensor calibration gap; no corroborating maintenance or permit context, but flagged retrospectively as a sensor-maintenance scheduling gap rather than a process hazard.",
+      "tags": ["temperature", "sensor_fault", "recordable"],
+      "severity": "recordable"
+    },
+    {
+      "id": "NM-190",
+      "title": "Near-miss: manifold pressure anomaly with no active work",
+      "zone_id": "Z5",
+      "date": "2024-01-27",
+      "summary": "Single pressure transient on the manifold with zero permits or maintenance active; traced to a transient upstream compressor cycling event, no escalation warranted.",
+      "tags": ["pressure", "false_alarm"],
+      "severity": "false_alarm"
+    },
+    {
+      "id": "NM-198",
+      "title": "Near-miss: vessel bay gas anomaly during confined space entry, handover overlap",
+      "zone_id": "Z3",
+      "date": "2024-09-10",
+      "summary": "Gas anomaly during an active confined-space-entry permit that overlapped a shift handover window; entry team alerted before handover completed, evacuation executed smoothly.",
+      "tags": ["confined_space", "shift_handover", "gas_h2s", "near_miss"],
+      "severity": "near_miss"
+    }
+  ],
+  "regulatory_guidelines": [
+    {
+      "id": "OISD-105-3.2",
+      "title": "OISD-style guideline: concurrent hot work and confined space entry",
+      "excerpt_summary": "Hot work permits issued for locations adjacent to active confined-space entries require an explicit joint risk assessment before either permit is authorized; the combination must not be approved as two independent permits in isolation.",
+      "tags": ["hot_work", "confined_space"]
+    },
+    {
+      "id": "OISD-105-4.1",
+      "title": "OISD-style guideline: shift handover re-validation",
+      "excerpt_summary": "Safety-critical certificates including gas-free certification and active permit status must be explicitly re-verified at every shift handover, not implicitly carried over from the outgoing shift's records.",
+      "tags": ["shift_handover", "confined_space"]
+    },
+    {
+      "id": "OISD-105-2.4",
+      "title": "OISD-style guideline: single-sensor alarm escalation",
+      "excerpt_summary": "A single sensor anomaly without corroborating operational, maintenance, or permit context should not trigger a high-priority alarm; escalation criteria must require corroboration from at least one independent data source to limit alarm fatigue and preserve operator trust in the alarm system.",
+      "tags": ["sensor_fault", "false_alarm"]
+    },
+    {
+      "id": "OISD-105-5.1",
+      "title": "OISD-style guideline: breakdown maintenance risk weighting",
+      "excerpt_summary": "Unplanned breakdown maintenance carries inherently higher risk weighting than scheduled preventive maintenance due to reduced preparation time and should be weighted accordingly in any automated risk scoring system.",
+      "tags": ["breakdown_maintenance", "preventive_maintenance"]
+    },
+    {
+      "id": "OISD-105-6.3",
+      "title": "OISD-style guideline: excavation near live utilities",
+      "excerpt_summary": "Excavation permits within a defined proximity of live pressurized utility lines require continuous monitoring of adjacent line pressure for the duration of the excavation activity.",
+      "tags": ["excavation", "pressure"]
+    }
+  ]
+}

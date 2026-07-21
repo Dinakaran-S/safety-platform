@@ -1,0 +1,19 @@
+# SENTINEL AI — Industrial Safety Intelligence Platform
+# Python 3.12+
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.0.0
+numpy>=1.26.0
+scipy>=1.12.0
+pandas>=2.2.0
+scikit-learn>=1.4.0
+networkx>=3.3
+websockets>=12.0
+fpdf2>=2.7.0
+
+# Agent 5 + AI Copilot real LLM narrative generation (optional — app falls
+# back to template narratives / rule-based copilot if no API key is set for
+# either provider)
+anthropic>=0.40.0        # Anthropic (Claude) provider
+httpx>=0.25.0             # used directly for the Groq provider (OpenAI-compatible HTTP API)
+python-dotenv>=1.0.0
